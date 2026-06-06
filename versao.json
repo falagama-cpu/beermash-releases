@@ -1,6 +1,6 @@
 {
-  "versao": "1.2.4",
+  "versao": "1.2.5",
   "build": "20260606",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Ficha técnica de fermentação, EBC/OG/FG nas receitas, FG prevista na produção e aviso de conversão no estoque."
+  "notas": "Estoque com aviso/dispensar de conversão, leveduras líquidas em litros e proteção contra NF duplicada."
 }
