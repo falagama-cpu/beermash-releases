@@ -1,6 +1,6 @@
 {
-  "versao": "1.2.5",
-  "build": "20260606",
+  "versao": "1.2.6",
+  "build": "20260609",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Estoque com aviso/dispensar de conversão, leveduras líquidas em litros e proteção contra NF duplicada."
+  "notas": "Importação BSMX corrigida (não sobrescreve lote em edição), edição de pedido mostra cerveja/volume corretos e e-mail de confirmação do pedido vai para o cliente."
 }
