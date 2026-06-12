@@ -1,6 +1,6 @@
 {
-  "versao": "1.2.6",
-  "build": "20260609",
+  "versao": "1.2.7",
+  "build": "20260612",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Importação BSMX corrigida (não sobrescreve lote em edição), edição de pedido mostra cerveja/volume corretos e e-mail de confirmação do pedido vai para o cliente."
+  "notas": "Atualização v1.2.7"
 }
