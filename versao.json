@@ -1,6 +1,6 @@
 {
-  "versao": "1.2.7",
+  "versao": "1.2.8",
   "build": "20260612",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "AtualizaÃ§Ã£o v1.2.7"
+  "notas": "• Versão instalada agora visível no rodapé do menu lateral\n• Aviso de nova versão aparece também durante o período demo\n• Botão \"Novidades\" no aviso de atualização mostra o que mudou\n• Pedidos do PDV entram na tela de Entregas, com botão Marcar Entregue\n• Melhorias na rastreabilidade de lote em pedidos com mais de um barril\n• Correções internas no mecanismo de atualização automática"
 }
