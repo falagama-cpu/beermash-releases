@@ -1,6 +1,6 @@
 {
-  "versao": "1.2.8",
-  "build": "20260611",
+  "versao": "1.3.0",
+  "build": "20260613",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "• Versão instalada agora visível no rodapé do menu lateral\n• Aviso de nova versão aparece também durante o período demo\n• Botão \"Novidades\" no aviso de atualização mostra o que mudou\n• Pedidos do PDV entram na tela de Entregas, com botão Marcar Entregue\n• Melhorias na rastreabilidade de lote em pedidos com mais de um barril\n• Correções internas no mecanismo de atualização automática"
+  "notas": "O build #148 (v1.3.0) falhou no passo de upload-artifact por cota de\narmazenamento cheia, abortando release/espelho/versao.json. O artifact é\nredundante com o Release, então marcado continue-on-error: a falha de\ncota não impede mais a publicação."
 }
