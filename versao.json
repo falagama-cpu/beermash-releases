@@ -1,6 +1,6 @@
 {
-  "versao": "1.3.2",
-  "build": "20260616",
+  "versao": "1.3.3",
+  "build": "20260617",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Barril consignado tratado corretamente: sai do estoque na entrega e o volume não consumido volta pro estoque ao acertar; ao recolher o pedido, o acerto do consignado abre junto.\nVenda no bar/local sempre baixa de um lote pronto (FIFO).\nEnvase com trava de saldo: não deixa envasar mais que o lote tem.\nDashboard: chopeiras pendentes de recolhimento no topo; compras por fornecedor agora filtra os últimos 30 dias.\nPermissões de usuário passam a incluir Venda Local e Taplist.\nAgenda sincroniza ao editar o pedido e não duplica mais eventos de recolhimento.\nDiversas correções de controle de estoque e relatórios."
+  "notas": "Forma de pagamento exibida corretamente (Pix antecipado / Pix na entrega / Cartão), inclusive pedidos antigos; botão 'Pago' agora aparece para qualquer pagamento pendente, não só antecipado.\nManual atualizado: barril consignado, entregas e recolhimento."
 }
