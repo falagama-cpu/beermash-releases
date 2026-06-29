@@ -1,6 +1,6 @@
 {
-  "versao": "1.3.5",
-  "build": "20260622",
+  "versao": "1.3.7",
+  "build": "20260629",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Saldo físico × reservado: disponível para vender calculado sozinho.\nPDV com busca/filtro de clientes e estilos com saldo.\nEntrada de NF descarta boleto bancário.\nCancelamento de pedido remove o evento da agenda."
+  "notas": "Registro MAPA por receita e lote de produção. Rótulo 100×100mm com logo, stats e Reg. MAPA para lotes de envase."
 }
