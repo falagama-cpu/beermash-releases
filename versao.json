@@ -1,6 +1,6 @@
 {
-  "versao": "1.3.7",
-  "build": "20260629",
+  "versao": "1.3.8",
+  "build": "20260701",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Registro MAPA por receita e lote de produção. Rótulo 100×100mm com logo, stats e Reg. MAPA para lotes de envase."
+  "notas": "Correções e melhorias:\n- Alertas de estoque mínimo voltam a funcionar: itens abaixo do mínimo\n  configurado agora aparecem corretamente na seção Alertas e no painel\n  do dashboard.\n- Correção nas telas de Produção, Produtos Acabados e Lotes de Envase,\n  que podiam não abrir em instalações novas do sistema.\n- Vendas PDV: ao registrar um pagamento, o sistema mostra o valor total\n  do pedido e quanto ainda falta, facilitando pagamentos parciais.\n- Fatura do cliente: passa a exibir o saldo devedor real do cliente."
 }
