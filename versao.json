@@ -1,6 +1,6 @@
 {
-  "versao": "1.3.9",
+  "versao": "1.4.0",
   "build": "20260702",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Correções:\n- Rótulo de produto agora usa os dados da SUA empresa (nome, endereço e\n  CNPJ configurados em Configurações), em vez de um texto fixo. Se ainda\n  não preencheu, aparece \"Beer Mash\" — configure sua empresa para o rótulo\n  sair correto.\n- Segurança: cada instalação passa a usar uma chave de sessão própria e\n  aleatória (antes era uma chave padrão compartilhada). Após atualizar,\n  pode ser necessário fazer login novamente uma vez."
+  "notas": "Novidades:\n- Estoque de cervejas com CÂMARA FRIA: um lote pode ficar parte no tanque e\n  parte na câmara fria ao mesmo tempo. Transferir uma parte pra câmara não\n  esvazia mais o tanque — cada porção aparece no seu lugar.\n- DE ONDE SAI a venda: ao vender (Chopp Delivery, PDV, Bar) ou envasar, você\n  escolhe manualmente se o volume sai do TANQUE ou da CÂMARA FRIA, e o sistema\n  baixa o estoque da fonte certa. Cancelar a venda devolve o estoque sozinho.\n- Data de produção AUTOMÁTICA: novo lote, repetir lote e aplicar receita já vêm\n  com a data de hoje (não herdam mais uma data antiga que estivesse na tela).\n\nCorreções:\n- Editar um lote não apaga mais o registro MAPA.\n\nObs.: nesta atualização pode ser necessário fazer login novamente uma vez."
 }
