@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.1",
+  "versao": "1.4.2",
   "build": "20260707",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Melhorias desta versão:\n\n- Estoque de cerveja mais rastreável: ajuste agora é sempre por lote e só\n  reduz (perda/contagem física), com registro de quem fez. Não é mais possível\n  \"adicionar\" cerveja fora de uma produção.\n- \"Pronto para servir\" reflete o físico real dos lotes (câmara + tanque),\n  acabando com estoque fantasma sem procedência.\n- Cancelamento de pedido que saiu do tanque pergunta para onde o volume\n  retorna (câmara fria ou tanque), sugerindo a câmara quando o fermentador\n  já está ocupado por outra produção.\n- Split câmara fria / tanque na saída, com escolha da fonte em cada venda.\n- Datas exibidas em dd/mm/aaaa.\n- PDV exige cliente cadastrado (CPF ou CNPJ), sem digitação avulsa.\n- Estoque mínimo alimenta os pedidos de compra automaticamente.\n- Dados da empresa (razão social, CNPJ, endereço) nos rótulos e produtos\n  acabados.\n- Correções de custo, impostos (ICMS/DIFAL) e vários ajustes de usabilidade."
+  "notas": "Correções:\n\n- \"Esqueci a senha\" agora funciona de verdade: o código de recuperação é\n  salvo no arquivo codigo-recuperacao.txt na pasta de dados do Beer Mash\n  (e também no server.log), além do terminal. Antes só aparecia no terminal,\n  que é invisível no app Windows — quem esquecia a senha ficava sem como\n  recuperar. A tela de redefinição agora mostra onde encontrar o arquivo.\n- Painel administrativo do desenvolvedor passa a aceitar a mesma senha do\n  sistema (login do painel de licenças)."
 }
