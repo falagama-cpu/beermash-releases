@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.0",
-  "build": "20260702",
+  "versao": "1.4.1",
+  "build": "20260707",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades:\n- Estoque de cervejas com CÂMARA FRIA: um lote pode ficar parte no tanque e\n  parte na câmara fria ao mesmo tempo. Transferir uma parte pra câmara não\n  esvazia mais o tanque — cada porção aparece no seu lugar.\n- DE ONDE SAI a venda: ao vender (Chopp Delivery, PDV, Bar) ou envasar, você\n  escolhe manualmente se o volume sai do TANQUE ou da CÂMARA FRIA, e o sistema\n  baixa o estoque da fonte certa. Cancelar a venda devolve o estoque sozinho.\n- Data de produção AUTOMÁTICA: novo lote, repetir lote e aplicar receita já vêm\n  com a data de hoje (não herdam mais uma data antiga que estivesse na tela).\n\nCorreções:\n- Editar um lote não apaga mais o registro MAPA.\n\nObs.: nesta atualização pode ser necessário fazer login novamente uma vez."
+  "notas": "Melhorias desta versão:\n\n- Estoque de cerveja mais rastreável: ajuste agora é sempre por lote e só\n  reduz (perda/contagem física), com registro de quem fez. Não é mais possível\n  \"adicionar\" cerveja fora de uma produção.\n- \"Pronto para servir\" reflete o físico real dos lotes (câmara + tanque),\n  acabando com estoque fantasma sem procedência.\n- Cancelamento de pedido que saiu do tanque pergunta para onde o volume\n  retorna (câmara fria ou tanque), sugerindo a câmara quando o fermentador\n  já está ocupado por outra produção.\n- Split câmara fria / tanque na saída, com escolha da fonte em cada venda.\n- Datas exibidas em dd/mm/aaaa.\n- PDV exige cliente cadastrado (CPF ou CNPJ), sem digitação avulsa.\n- Estoque mínimo alimenta os pedidos de compra automaticamente.\n- Dados da empresa (razão social, CNPJ, endereço) nos rótulos e produtos\n  acabados.\n- Correções de custo, impostos (ICMS/DIFAL) e vários ajustes de usabilidade."
 }
