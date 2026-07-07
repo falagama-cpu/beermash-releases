@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.2",
+  "versao": "1.4.3",
   "build": "20260707",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Correções:\n\n- \"Esqueci a senha\" agora funciona de verdade: o código de recuperação é\n  salvo no arquivo codigo-recuperacao.txt na pasta de dados do Beer Mash\n  (e também no server.log), além do terminal. Antes só aparecia no terminal,\n  que é invisível no app Windows — quem esquecia a senha ficava sem como\n  recuperar. A tela de redefinição agora mostra onde encontrar o arquivo.\n- Painel administrativo do desenvolvedor passa a aceitar a mesma senha do\n  sistema (login do painel de licenças)."
+  "notas": "Novidades desta versão:\n\n- NOVO: Orçamentos (menu Vendas). Monte um orçamento escolhendo produtos do\n  estoque ou digitando itens livres, com quantidade e valor unitário (como no\n  PDV). Gera um PDF profissional com o cabeçalho da cervejaria (logo, razão\n  social, CNPJ, endereço), tabela de itens, total e validade — e envia por\n  email direto ao cliente (email do cadastro), com o PDF anexo. Dá pra\n  visualizar/imprimir na tela sem baixar arquivo.\n- Rastreabilidade: lotes de produção que já tiveram saída (venda de chopp/PDV/\n  bar, envase ou baixa) não podem mais ser excluídos — o histórico é\n  preservado. Lote sem nenhuma saída continua podendo ser excluído.\n- Datas de produção validadas: o sistema barra data de produção/inoculação no\n  futuro e previsão de término anterior à inoculação (evita erro de ano digitado)."
 }
