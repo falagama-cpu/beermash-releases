@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.3",
+  "versao": "1.4.4",
   "build": "20260707",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n- NOVO: Orçamentos (menu Vendas). Monte um orçamento escolhendo produtos do\n  estoque ou digitando itens livres, com quantidade e valor unitário (como no\n  PDV). Gera um PDF profissional com o cabeçalho da cervejaria (logo, razão\n  social, CNPJ, endereço), tabela de itens, total e validade — e envia por\n  email direto ao cliente (email do cadastro), com o PDF anexo. Dá pra\n  visualizar/imprimir na tela sem baixar arquivo.\n- Rastreabilidade: lotes de produção que já tiveram saída (venda de chopp/PDV/\n  bar, envase ou baixa) não podem mais ser excluídos — o histórico é\n  preservado. Lote sem nenhuma saída continua podendo ser excluído.\n- Datas de produção validadas: o sistema barra data de produção/inoculação no\n  futuro e previsão de término anterior à inoculação (evita erro de ano digitado)."
+  "notas": "- Orçamentos: cada item agora tem campo de VOLUME (ex.: 16L / 30L / 50L,\n  com sugestões ou digitado). O volume aparece junto do produto no PDF e no\n  email (ex.: \"Munich Helles 50L\"). Completa o módulo lançado na 1.4.3."
 }
