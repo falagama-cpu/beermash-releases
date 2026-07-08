@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.5",
+  "versao": "1.4.6",
   "build": "20260708",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Melhorias desta versão:\n\n- Histórico de lotes: quando um lote está dividido entre tanque e câmara fria,\n  o \"Local\" mostra a divisão real (ex.: \"Tanque 20L · Câmara 30L\") em vez de\n  rotular tudo como tanque.\n- Transferir para câmara fria: o campo agora é \"quanto transferir do tanque\"\n  (já vem com o volume do tanque) e soma corretamente com o que já está na\n  câmara — antes oferecia o saldo total e confundia em lote misto.\n- Editar lote: o campo Fermentador voltou a aparecer também em lotes concluídos,\n  permitindo mover um lote de um tanque para outro (com bloqueio se o destino\n  já estiver ocupado).\n- Físico x disponível x reservado agora fecham em todas as telas:\n  * chopp confirmado cuja data de entrega já passou conta como saída (o barril\n    saiu no dia do evento), não fica mais preso como \"reservado\";\n  * pedido de barril (PDV) desconta do lote na reserva; se cancelado, volta.\n- Manual do usuário atualizado: nova seção de Orçamentos e notas sobre estoque\n  por lote, exclusão com rastreabilidade, fonte da saída e validação de datas."
+  "notas": "- Pedido PDV: ao vender um barril, o sistema agora escolhe sozinho de onde\n  tirar o volume — câmara fria primeiro (se cobrir), tanque só se a câmara não\n  cobrir. Antes assumia sempre \"tanque\" e dava erro em lote que está todo na\n  câmara (\"barril não cabe no tanque\")."
 }
