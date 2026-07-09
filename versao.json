@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.6",
-  "build": "20260708",
+  "versao": "1.4.7",
+  "build": "20260709",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "- Pedido PDV: ao vender um barril, o sistema agora escolhe sozinho de onde\n  tirar o volume — câmara fria primeiro (se cobrir), tanque só se a câmara não\n  cobrir. Antes assumia sempre \"tanque\" e dava erro em lote que está todo na\n  câmara (\"barril não cabe no tanque\")."
+  "notas": "Novidades desta versão:\n\n• Orçamento: campo de busca de cliente (por nome ou CNPJ), no lugar\n  da lista suspensa — muito mais rápido com muitos clientes.\n• Orçamento: adicionar produtos envasados (latas, growlers, garrafas)\n  direto pelo seletor \"Adicionar produto envasado\" — já traz o volume\n  definido; você ajusta só a quantidade e o preço.\n• Orçamento: janela maior, com cabeçalho de colunas nos itens.\n• Receitas Importadas: a lista mostra as 10 mais recentes e esconde o\n  resto, com campo de busca por nome/estilo — não trava mais com\n  centenas de receitas.\n• Produção: cada seção (Receitas, Registrar Lote, Em Produção,\n  Histórico) ganhou cor própria e mais espaçamento — fica claro onde\n  você está.\n• Chopp Delivery: botão \"Vincular lote\" no lugar do indicador redondo,\n  mais intuitivo pra quem não conhece o sistema.\n• Fatura: correção no envio — passa a considerar o valor dos pedidos\n  efetivamente selecionados."
 }
