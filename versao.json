@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.7",
-  "build": "20260709",
+  "versao": "1.4.8",
+  "build": "20260710",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• Orçamento: campo de busca de cliente (por nome ou CNPJ), no lugar\n  da lista suspensa — muito mais rápido com muitos clientes.\n• Orçamento: adicionar produtos envasados (latas, growlers, garrafas)\n  direto pelo seletor \"Adicionar produto envasado\" — já traz o volume\n  definido; você ajusta só a quantidade e o preço.\n• Orçamento: janela maior, com cabeçalho de colunas nos itens.\n• Receitas Importadas: a lista mostra as 10 mais recentes e esconde o\n  resto, com campo de busca por nome/estilo — não trava mais com\n  centenas de receitas.\n• Produção: cada seção (Receitas, Registrar Lote, Em Produção,\n  Histórico) ganhou cor própria e mais espaçamento — fica claro onde\n  você está.\n• Chopp Delivery: botão \"Vincular lote\" no lugar do indicador redondo,\n  mais intuitivo pra quem não conhece o sistema.\n• Fatura: correção no envio — passa a considerar o valor dos pedidos\n  efetivamente selecionados."
+  "notas": "Novidades desta versão:\n\n• Etiqueta de patrimônio: o logo da empresa passa a aparecer sempre que\n  estiver cadastrado (antes dependia de um carregamento que às vezes\n  falhava e caía no nome em texto). Logo um pouco maior.\n• Termo de locação de chopeira: o checklist de equipamentos ganhou a\n  coluna \"Patrimônio\", com espaço para anotar à mão o código da\n  Chopeira, do Cilindro CO₂ e da Pingadeira na entrega.\n• \"CO₂\" renomeado para \"Cilindro CO₂\" no termo."
 }
