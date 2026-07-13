@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.8",
-  "build": "20260710",
+  "versao": "1.4.9",
+  "build": "20260713",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• Etiqueta de patrimônio: o logo da empresa passa a aparecer sempre que\n  estiver cadastrado (antes dependia de um carregamento que às vezes\n  falhava e caía no nome em texto). Logo um pouco maior.\n• Termo de locação de chopeira: o checklist de equipamentos ganhou a\n  coluna \"Patrimônio\", com espaço para anotar à mão o código da\n  Chopeira, do Cilindro CO₂ e da Pingadeira na entrega.\n• \"CO₂\" renomeado para \"Cilindro CO₂\" no termo."
+  "notas": "Novidades desta versão:\n\n• Rótulo de produtos envasados (latas/garrafas) reformulado no tamanho\n  200×100mm, layout completo pronto para impressão: logo, ingredientes,\n  alérgicos, conservação, aviso +18, ABV/IBU/volume, validade e lote,\n  canais de atendimento e dados do produtor. Tudo puxado do cadastro da\n  sua empresa (nome, CNPJ, endereço, telefone, email e slogan).\n• Novo campo \"Alérgicos\" no lote de envase — se você deixar em branco, o\n  sistema preenche sozinho no rótulo a partir dos ingredientes.\n• O volume deixa de duplicar no nome: se o produto se chama \"IPA 473ml\",\n  o rótulo mostra só \"IPA\" (o volume aparece no campo Volume).\n• ABV calculado corretamente: a densidade (OG/FG) é normalizada ao salvar\n  o lote — digitar \"1010\" ou \"1.010\" tanto faz, o sistema arruma e\n  recalcula o ABV. Corrige lotes que ficavam sem ABV por densidade mal\n  digitada."
 }
