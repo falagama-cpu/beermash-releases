@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.12",
+  "versao": "1.4.13",
   "build": "20260714",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Correções desta versão:\n\n• Relatório de Vendas: o total voltou a bater com a soma de PDV +\n  Delivery. Cada pedido do PDV gerava uma cópia interna em \"vendas de\n  produtos\" (usada para baixar o estoque), e o relatório somava as duas —\n  dobrando as vendas de PDV no total. Agora essa cópia é ignorada no\n  relatório e a venda de PDV é contada uma única vez.\n• A seção \"Vendas por Produtos\" foi renomeada para \"Vendas de Envasados\n  (latas/growlers)\", deixando claro que ali entram só os produtos\n  envasados vendidos avulso — não os barris do PDV (que aparecem em\n  \"PDV por Estilo\")."
+  "notas": "Novidades desta versão:\n\n• Rótulo de envasados otimizado para IMPRESSÃO TÉRMICA: textos em preto e\n  negrito, linhas divisórias e caixa nutricional reforçadas, e margem de\n  segurança nas bordas para não cortar na impressão. O bloco do produtor\n  (lateral) ficou mais forte e legível.\n• Manual do usuário atualizado: nova seção \"Rótulo do produto envasado\"\n  (campos, sugestão de ingredientes a partir dos insumos, alérgicos\n  automáticos, informação nutricional calculada e nota de impressão\n  térmica) e nota sobre o headspace do fermentador."
 }
