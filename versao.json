@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.11",
+  "versao": "1.4.12",
   "build": "20260714",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• Informação nutricional automática: cada lote de envase calcula a tabela\n  (valor energético, carboidratos, proteínas, gorduras, fibra, sódio e\n  %VD) a partir da densidade (OG/FG) e do teor alcoólico do lote. Aparece\n  no rótulo (200×100) e num botão \"Nutri\" que copia a tabela pronta para\n  colar em outro editor. Quando falta o FG, ele é estimado pela ABV.\n  Os valores de proteína/gordura/sódio/açúcares são padrões de cerveja,\n  ajustáveis — para rótulo legal, confirme com análise laboratorial.\n• Ingredientes automáticos: botão \"Sugerir dos insumos\" no lote de envase\n  preenche os ingredientes a partir da matéria-prima da produção\n  (malte de cevada, aveia, lúpulo, levedura…), ignorando coadjuvantes de\n  tecnologia. Você revisa e ajusta. No rótulo, se o campo estiver vazio,\n  usa essa versão derivada como padrão."
+  "notas": "Correções desta versão:\n\n• Relatório de Vendas: o total voltou a bater com a soma de PDV +\n  Delivery. Cada pedido do PDV gerava uma cópia interna em \"vendas de\n  produtos\" (usada para baixar o estoque), e o relatório somava as duas —\n  dobrando as vendas de PDV no total. Agora essa cópia é ignorada no\n  relatório e a venda de PDV é contada uma única vez.\n• A seção \"Vendas por Produtos\" foi renomeada para \"Vendas de Envasados\n  (latas/growlers)\", deixando claro que ali entram só os produtos\n  envasados vendidos avulso — não os barris do PDV (que aparecem em\n  \"PDV por Estilo\")."
 }
