@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.10",
-  "build": "20260713",
+  "versao": "1.4.11",
+  "build": "20260714",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• Fermentadores com headspace: a capacidade efetiva passa a considerar\n  ~15% acima da capacidade nominal (folga usada para compensar perdas de\n  clarificação/trasfega). Um lote acima do volume nominal (ex.: 1100 L\n  num tanque de 1000 L) deixa de aparecer como \"cheio no limite\" e mostra\n  o percentual real dentro do headspace. Ajustável em configurações\n  (fermentador_headspace_pct, padrão 15%).\n• Correção da previsão de liberação do fermentador: datas inválidas\n  (ano < 2000, ex.: campo salvo como 0001-01-01) eram usadas por engano e\n  geravam \"atrasado\" com milhares de dias. Agora são ignoradas no cálculo\n  e barradas ao salvar o lote."
+  "notas": "Novidades desta versão:\n\n• Informação nutricional automática: cada lote de envase calcula a tabela\n  (valor energético, carboidratos, proteínas, gorduras, fibra, sódio e\n  %VD) a partir da densidade (OG/FG) e do teor alcoólico do lote. Aparece\n  no rótulo (200×100) e num botão \"Nutri\" que copia a tabela pronta para\n  colar em outro editor. Quando falta o FG, ele é estimado pela ABV.\n  Os valores de proteína/gordura/sódio/açúcares são padrões de cerveja,\n  ajustáveis — para rótulo legal, confirme com análise laboratorial.\n• Ingredientes automáticos: botão \"Sugerir dos insumos\" no lote de envase\n  preenche os ingredientes a partir da matéria-prima da produção\n  (malte de cevada, aveia, lúpulo, levedura…), ignorando coadjuvantes de\n  tecnologia. Você revisa e ajusta. No rótulo, se o campo estiver vazio,\n  usa essa versão derivada como padrão."
 }
