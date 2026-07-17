@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.13",
-  "build": "20260714",
+  "versao": "1.4.14",
+  "build": "20260717",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• Rótulo de envasados otimizado para IMPRESSÃO TÉRMICA: textos em preto e\n  negrito, linhas divisórias e caixa nutricional reforçadas, e margem de\n  segurança nas bordas para não cortar na impressão. O bloco do produtor\n  (lateral) ficou mais forte e legível.\n• Manual do usuário atualizado: nova seção \"Rótulo do produto envasado\"\n  (campos, sugestão de ingredientes a partir dos insumos, alérgicos\n  automáticos, informação nutricional calculada e nota de impressão\n  térmica) e nota sobre o headspace do fermentador."
+  "notas": "Novidades desta versão:\n\n• Pedido de chopp com vários estilos: um mesmo pedido pode ter mais de uma cerveja (ex.: Pilsen 50L + Munich Helles 50L), e cada estilo baixa do seu próprio lote. Na entrada manual, use \"Adicionar cerveja\" para montar o pedido combinado com o lote de cada um.\n\n• Transferência para a câmara fria liberada para todos os usuários: mover chopp entre tanque e câmara é rotina e não altera o estoque total, então não exige mais admin. Os ajustes que reduzem o estoque continuam restritos ao administrador.\n\n• Rótulo de lata: o registro agora aparece como \"REGISTRO MAPA\".\n\n• Correções de estabilidade no controle de estoque de chopp por lote."
 }
