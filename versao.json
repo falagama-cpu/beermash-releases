@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.15",
-  "build": "20260718",
+  "versao": "1.4.16",
+  "build": "20260719",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• PDV: ao registrar ou editar um pedido, o sistema agora bloqueia com aviso quando o lote escolhido não tem litros suficientes para o volume pedido — evitando que o estoque de um lote fique negativo. Basta escolher outro lote com saldo.\n\n• Manual do usuário atualizado: pedido de chopp com vários estilos (cada um baixando do seu lote) e a transferência para a câmara fria liberada a todos os usuários."
+  "notas": "Novidades desta versão:\n\n• A ficha de rastreabilidade e a taplist (todas as variantes, incl. TV e retrô) agora exibem o nome da SUA cervejaria — puxado das Configurações — em vez de um nome fixo.\n\n• Textos de exemplo (placeholders) deixados genéricos e removido um link de agenda que apontava para uma conta fixa."
 }
