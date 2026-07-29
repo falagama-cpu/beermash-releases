@@ -1,6 +1,6 @@
 {
-  "versao": "1.4.17",
-  "build": "20260719",
+  "versao": "1.4.18",
+  "build": "20260729",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades desta versão:\n\n• Visual repaginado: cantos mais suaves, profundidade (sombras nos cards e KPIs), realce no foco dos campos e no hover das linhas, KPIs que entram em cascata, modais e tabelas mais caprichados. Mesma informação, com um acabamento mais moderno.\n\n• Pedido de chopp com vários barris também na EDIÇÃO: agora dá pra adicionar, trocar ou remover barris (estilos/volumes/lotes) de um pedido já existente — antes isso só era possível ao criar o pedido.\n\n• Editar pedido já entregue: a edição não trava mais por causa de data que já passou (a exigência de data futura vale só ao criar um pedido novo).\n\n• Busca de pedidos melhorada: encontra pelo número com ou sem \"#\" (ex.: \"#111\" ou \"111\") e localiza pedidos de QUALQUER data — não só do intervalo mostrado na tela.\n\n• Instalação Linux: dependências completas (reportlab e pdfplumber) para geração de PDF e leitura de NF."
+  "notas": "Novidades desta versão:\n- Tabela de Preços: cadastre o preço de delivery, PDV e produtos envasados uma vez e o sistema sugere na hora da venda, com descontos por segmento (balcão, atacado, evento, online, PDV).\n- Frete na nota fiscal: informe o frete no aceite da NF e ele é rateado por peso entre os itens, já embutido no custo unitário.\n- Chopp com vários estilos: pedido único mesmo com item sem lote para entregas distantes — entra na projeção de Disponibilidade Futura e você vincula o lote quando ficar pronto.\n- Estoque protegido: novas travas impedem saldo negativo e transferência acima do volume do lote, evitando \"sobra fantasma\".\n- Correções: editar pedido não duplica mais cervejas; pagamento com valor a acertar aparece certo no relatório.\n- Manual do usuário atualizado com todas as novidades acima."
 }
