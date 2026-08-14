@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.1",
-  "build": "20260813",
+  "versao": "1.6.2",
+  "build": "20260814",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "- manual.html: 25 → 28 seções. Entram Dashboard, Tanques e A receber (que\n  passaram a existir no menu na 1.6.0), a organização do menu em 7 grupos,\n  o fluxo de entrega em dois passos, os selos PAGO / A PAGAR e a nota de que\n  a trava de permissões vale em todo o sistema. Renomeadas para bater com as\n  telas: Vendas Chopp → Chopp Delivery, Entregas & Recolhimento → Entregas,\n  Torneiras / Taplist → Taplist.\n  Na 1.6.0 foi empacotado o manual antigo por engano.\n\n- rota /: cada versão vira uma URL própria (/?v=VERSION). Atualizando\n  1.5.2 → 1.6.0 o navegador seguia servindo o HTML em cache — a tela de\n  Usuários já listava as seções novas (vem da API) e o menu lateral não\n  (vem do HTML). Os headers no-store não bastaram."
+  "notas": "Cadastro de grupos (nome comercial → grupo) em Estoque, com sugestões por\nraiz do nome e vínculo em lote. Na produção, quando falta saldo, a linha\noferece os equivalentes que TÊM saldo; clicar troca o insumo já com preço,\nfator e unidade da nota dele.\n\nO consumo NÃO mudou: `_alocar_fifo_consumo` segue atravessando só notas do\nmesmo nome. A troca é manual e confirmada — decisão do Fabio. Levedura fica\nfora do cadastro (rastreabilidade exige o mesmo lote na produção).\n\nTambém nesta versão:\n- pedido pelo site alimenta a base de clientes (CPF é a chave) e grava os\n  mesmos campos do bot\n- cancelamento pode avisar o cliente, com o motivo\n- selo PAGO/A PAGAR e botão de pagamento também na tela Entregas\n- scripts/sincronizar.sh: confere e migra teste → produção → cópia limpa →\n  backup → commit, para não repetir o caso do manual desatualizado na 1.6.0"
 }
