@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.8",
+  "versao": "1.6.9",
   "build": "20260816",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "A 1.6.4 corrigiu a tela de Alertas, mas o mesmo defeito existia num segundo\nlugar: o painel \"Exige ação hoje\" do dashboard montava a linha com `a.saldo` e\n`a.unidade` (unidade-base) contra um mínimo digitado na unidade de compra —\n\"saldo 1000 kg · mínimo 50\". O critério de \"crítico\" usava o mesmo saldo errado.\n\nAgora usa saldo_estoque/unidade_estoque, igual à tela de Alertas, e repete a\nunidade no mínimo: \"saldo 40 SAC · mínimo 50 SAC\".\n\nEncontrado ao capturar a tela do dashboard para o material de treinamento — a\ncorreção anterior tinha sido verificada só na tela de Alertas."
+  "notas": "Busca sistemática por todos os lugares que mostram saldo ao lado de um mínimo,\ndepois de o mesmo defeito ter aparecido duas vezes (1.6.4 e 1.6.8). Achou mais\ndois, ambos com a mesma origem: `item.saldo`/`item.unidade` são a unidade-BASE\n(kg), enquanto o mínimo é digitado na unidade de COMPRA (sacos).\n\n- renderDashboard(): o bloco de alertas do painel montava\n  \"Saldo: 1000 kg · Mínimo: 50 kg\" e calculava \"crítico\" pelo saldo em kg.\n- _renderLinhaEstoque(): as colunas Unidade e Saldo da tabela de estoque saíam em\n  kg, com a coluna Mínimo logo ao lado em sacos.\n\nOs dois passam a usar saldo_estoque/unidade_estoque, como a tela de Alertas e o\npainel \"Exige ação hoje\" já faziam.\n\nConferidos e corretos (não mexidos): calcularAlertas, nivelEstoque, o cálculo de\nconsumo por dia e _estSituacao — todos comparam base com base.\n\nVerificado: a linha do malte na tabela de estoque agora sai \"40 SAC (1.000 kg)\",\nsem erro de JavaScript."
 }
