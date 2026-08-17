@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.15",
+  "versao": "1.6.16",
   "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Fecha o assunto da 1.6.14, que trocou o histórico pela tabela de preços mas ainda\noferecia item sem saldo. Agora é a interseção: precisa estar na tabela de preços\n(ativo) e ter lote com saldo.\n\nCerveja sem preço obriga a digitar o valor à mão; cerveja sem saldo é promessa\nque a venda não cumpre. Nenhuma das duas deve aparecer no orçamento.\n\nNa operação real: de 20 nomes (histórico) para 10. Sai Double IPA por falta de\nestoque; Maibock e Tripel Caju seguem fora por falta de preço cadastrado, apesar\nde terem 270 L e 28 L na câmara — cadastrar o preço traz as duas de volta."
+  "notas": "Na mesma tela de venda local, os campos discordavam: cerveja e lote mostravam\n\"59.97 L\" e o seletor de fonte, \"59.96 L\".\n\nErro de ponto flutuante no truncamento: em JS, 59.97 * 100 = 5996.999999999999,\ne Math.floor cortava para 5996 → 59.96. O SQL estava certo (CAST(59.97*100) =\n5997); quem errava era o helper _trunc2 do frontend.\n\nSomado 1e-6 antes do floor. Os três campos passam a mostrar o mesmo número, e\nsegue truncando para baixo — nunca oferece mais do que existe."
 }
