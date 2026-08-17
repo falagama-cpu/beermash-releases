@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.12",
+  "versao": "1.6.13",
   "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Continuação da 1.6.11, que corrigiu o dropdown de cerveja mas não o seletor de\nFONTE — que era justamente o texto reportado: \"🧊 Câmara fria (60,0 L)\" num lote\ncom 59,97 L. Pedir 60 dava \"Volume (60.0L) maior que o saldo disponível na câmara\nfria (59.97L)\": barrado por 30 ml que o próprio seletor escondeu.\n\nOs dois seletores (venda local e o gêmeo em outro ponto do arquivo) passam a usar\n_trunc2(), que trunca para baixo em 2 casas — nunca mostra um número que a\nvalidação recusa. O cálculo do saldo do tanque também deixou de arredondar antes\nde comparar.\n\nA fração vem do envase em lata (473 ml cada): um lote de 430 L vira 429,527 L."
+  "notas": "A causa real do \"Volume (60.0L) maior que o saldo disponível na câmara fria\n(59.97L)\" — as 1.6.11 e 1.6.12 trataram só a formatação no frontend, mas o\nnúmero errado já vinha da API.\n\n`/api/producoes-disponiveis` (e outras 3 consultas iguais) devolviam\nROUND(camara_disponivel, 1). Com saldo real de 59,97, ROUND(59.97,1) = 60.0 —\na tela recebia 60, mostrava 60, o operador pedia 60, e a validação, que usa o\nsaldo cru, recusava. Não era erro de exibição: o dado já chegava arredondado\npara cima.\n\nAgora trunca para 2 casas (CAST(x*100 AS INT)/100.0) nos 4 pontos, e saldo_lote\npassou de 1 para 2 casas. O número que a tela recebe é sempre um valor que a\nvalidação aceita.\n\nCaso real: lote SOU032026, 250 L na câmara, menos 139,3 (bar) + 46,0 (produtos)\n+ 4,73 (envase em lata de 473 ml) = 59,97 L."
 }
