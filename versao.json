@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.14",
+  "versao": "1.6.15",
   "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "O campo de produto do orçamento vinha de /api/cervejas, que é um UNION de todo\nnome que já apareceu em producoes, vendas_chopp e vendas_produtos — histórico,\nnão catálogo. Na operação real oferecia 20 nomes para 12 com saldo: APA, Cold\nIPA, Dubbel, Sour e outras cervejas que não são feitas há meses.\n\nPassa a oferecer o que está na TABELA DE PREÇOS (registros ativos), que é o\ncatálogo comercial de verdade. /api/cervejas segue como está para filtros e\nrelatórios, onde ver o passado é o certo.\n\nEfeito colateral a acompanhar: cerveja com estoque mas sem preço cadastrado deixa\nde aparecer no orçamento. Na operação são duas hoje (Maibock e Tripel Caju) —\ncadastrar o preço resolve, e é o caminho certo: orçar sem preço na tabela já\nobrigava a digitar o valor à mão."
+  "notas": "Fecha o assunto da 1.6.14, que trocou o histórico pela tabela de preços mas ainda\noferecia item sem saldo. Agora é a interseção: precisa estar na tabela de preços\n(ativo) e ter lote com saldo.\n\nCerveja sem preço obriga a digitar o valor à mão; cerveja sem saldo é promessa\nque a venda não cumpre. Nenhuma das duas deve aparecer no orçamento.\n\nNa operação real: de 20 nomes (histórico) para 10. Sai Double IPA por falta de\nestoque; Maibock e Tripel Caju seguem fora por falta de preço cadastrado, apesar\nde terem 270 L e 28 L na câmara — cadastrar o preço traz as duas de volta."
 }
