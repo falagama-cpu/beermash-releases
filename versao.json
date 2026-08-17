@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.16",
+  "versao": "1.6.17",
   "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Na mesma tela de venda local, os campos discordavam: cerveja e lote mostravam\n\"59.97 L\" e o seletor de fonte, \"59.96 L\".\n\nErro de ponto flutuante no truncamento: em JS, 59.97 * 100 = 5996.999999999999,\ne Math.floor cortava para 5996 → 59.96. O SQL estava certo (CAST(59.97*100) =\n5997); quem errava era o helper _trunc2 do frontend.\n\nSomado 1e-6 antes do floor. Os três campos passam a mostrar o mesmo número, e\nsegue truncando para baixo — nunca oferece mais do que existe."
+  "notas": "O seletor de fonte continuava mostrando 59,96 enquanto cerveja e lote mostravam\n59,97. A 1.6.16 corrigiu o float do frontend, mas o número já chegava errado: o\nCAST(x*100 AS INT) introduzido na 1.6.13 truncava o cálculo real\n(250 − 139,3 − 46,0 − 4,73 = 59.9699999…) para 5996 → 59,96.\n\nTrocado por ROUND(..., 2) nas 4 consultas. Duas casas resolvem sem trazer de\nvolta o problema original: o perigo era ROUND(...,1), que virava 59,97 → 60,0 e\nfazia a validação recusar a venda. Com 2 casas, ROUND devolve 59,97 exato.\n\nVerificado no lote real SOU032026: 59.97 L."
 }
