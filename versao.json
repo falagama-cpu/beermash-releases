@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.9",
-  "build": "20260816",
+  "versao": "1.6.10",
+  "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Busca sistemática por todos os lugares que mostram saldo ao lado de um mínimo,\ndepois de o mesmo defeito ter aparecido duas vezes (1.6.4 e 1.6.8). Achou mais\ndois, ambos com a mesma origem: `item.saldo`/`item.unidade` são a unidade-BASE\n(kg), enquanto o mínimo é digitado na unidade de COMPRA (sacos).\n\n- renderDashboard(): o bloco de alertas do painel montava\n  \"Saldo: 1000 kg · Mínimo: 50 kg\" e calculava \"crítico\" pelo saldo em kg.\n- _renderLinhaEstoque(): as colunas Unidade e Saldo da tabela de estoque saíam em\n  kg, com a coluna Mínimo logo ao lado em sacos.\n\nOs dois passam a usar saldo_estoque/unidade_estoque, como a tela de Alertas e o\npainel \"Exige ação hoje\" já faziam.\n\nConferidos e corretos (não mexidos): calcularAlertas, nivelEstoque, o cálculo de\nconsumo por dia e _estSituacao — todos comparam base com base.\n\nVerificado: a linha do malte na tabela de estoque agora sai \"40 SAC (1.000 kg)\",\nsem erro de JavaScript."
+  "notas": "O painel listava \"Entrega hoje — <cliente>\" filtrando só por\n`status === 'confirmado' && data_entrega === hoje`. Não olhava `entregue_em`, o\ncarimbo do 1º passo da entrega — então o pedido continuava sendo cobrado depois\nde marcado como entregue, e o operador não tinha como tirar o item da lista.\n\nCaso real que revelou: pedido #136, entregue hoje às 18:49, seguia no painel.\n\nO `status` não muda ao entregar (de propósito: 'recolhido' participa de 4\ncálculos de estoque), então quem quer saber se a entrega foi feita precisa olhar\n`entregue_em` — como as telas de Entregas e Chopp Delivery já fazem."
 }
