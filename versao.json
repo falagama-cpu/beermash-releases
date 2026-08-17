@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.11",
+  "versao": "1.6.12",
   "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "O dropdown somava o saldo por cerveja e exibia com toFixed(1): um lote com\n59,97 L aparecia como \"60,0 L\". O operador pedia 60 e recebia \"Volume (60.0L)\nmaior que o saldo disponível na câmara fria (59.97L)\" — barrado por 30 ml que a\nprópria tela tinha escondido.\n\nAgora mostra 2 casas e trunca para baixo (Math.floor), nunca para cima: o número\nna tela passa a ser um valor que a validação aceita.\n\nA fração vem do envase em LATA: cada lata de 473 ml tira 0,473 L do lote, então\num lote de 430 L vira 429,527 L e nunca mais fecha em inteiro. Sete lotes da\noperação estão nessa situação hoje. A validação continua como está (tolerância de\n1 ml sobre o saldo real do lote) — mudou só a exibição, que era quem mentia."
+  "notas": "Continuação da 1.6.11, que corrigiu o dropdown de cerveja mas não o seletor de\nFONTE — que era justamente o texto reportado: \"🧊 Câmara fria (60,0 L)\" num lote\ncom 59,97 L. Pedir 60 dava \"Volume (60.0L) maior que o saldo disponível na câmara\nfria (59.97L)\": barrado por 30 ml que o próprio seletor escondeu.\n\nOs dois seletores (venda local e o gêmeo em outro ponto do arquivo) passam a usar\n_trunc2(), que trunca para baixo em 2 casas — nunca mostra um número que a\nvalidação recusa. O cálculo do saldo do tanque também deixou de arredondar antes\nde comparar.\n\nA fração vem do envase em lata (473 ml cada): um lote de 430 L vira 429,527 L."
 }
