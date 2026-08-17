@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.17",
+  "versao": "1.6.20",
   "build": "20260817",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "O seletor de fonte continuava mostrando 59,96 enquanto cerveja e lote mostravam\n59,97. A 1.6.16 corrigiu o float do frontend, mas o número já chegava errado: o\nCAST(x*100 AS INT) introduzido na 1.6.13 truncava o cálculo real\n(250 − 139,3 − 46,0 − 4,73 = 59.9699999…) para 5996 → 59,96.\n\nTrocado por ROUND(..., 2) nas 4 consultas. Duas casas resolvem sem trazer de\nvolta o problema original: o perigo era ROUND(...,1), que virava 59,97 → 60,0 e\nfazia a validação recusar a venda. Com 2 casas, ROUND devolve 59,97 exato.\n\nVerificado no lote real SOU032026: 59.97 L."
+  "notas": "O helper de formatação definia minimumFractionDigits sem o maximum, então valores\ncom mais casas passavam inteiros: \"R$ 1,805\" de custo/L, \"R$ 54,141\" de custo do\nbarril e \"R$ 275,859\" de valor líquido, no meio de colunas com 2 casas.\n\nFixadas as casas em 2. O custo unitário de produto acabado segue com 4, onde a\nfração de centavo por lata é a informação."
 }
