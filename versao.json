@@ -1,6 +1,6 @@
 {
-  "versao": "1.6.20",
-  "build": "20260817",
+  "versao": "1.6.21",
+  "build": "20260818",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "O helper de formatação definia minimumFractionDigits sem o maximum, então valores\ncom mais casas passavam inteiros: \"R$ 1,805\" de custo/L, \"R$ 54,141\" de custo do\nbarril e \"R$ 275,859\" de valor líquido, no meio de colunas com 2 casas.\n\nFixadas as casas em 2. O custo unitário de produto acabado segue com 4, onde a\nfração de centavo por lata é a informação."
+  "notas": "Regra confirmada pelo Fabio (17/08/2026): o consignado é PAGO ANTECIPADO junto\ncom o barril firme — entra o valor dos dois de uma vez. Se não for aberto, volta\npara a câmara e o pagamento é devolvido, com o total do pedido caindo (1400 →\n1000). O lado da devolução já estava implementado: api_ajustar_consignado\nsubtrai valor_devolvido do pedido pai.\n\nFaltava a outra ponta. Marcar o pai como pago rodava\n\"UPDATE ... WHERE id=?\" só no pedido clicado; a linha-irmã do consignado nascia\n'pendente' e ficava assim. O painel então cobrava um dinheiro que já tinha\nentrado — e como pagamento antecipado é a regra, isso aconteceria em TODO pedido\ncom consignado, não num caso isolado.\n\nAgora o pagamento propaga para as linhas-irmãs do mesmo pedido (marcador\n\"Consignado — Gerado automaticamente do pedido #N\"), inclusive ao desfazer.\nConsignado cancelado ou negado não é tocado.\n\nCaso real que revelou: pedido #128 (Tatiani), R$ 1.000 pago, com o consignado\n#130 de R$ 400 preso em pendente."
 }
