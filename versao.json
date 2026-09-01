@@ -1,6 +1,6 @@
 {
-  "versao": "1.7.1",
-  "build": "20260828",
+  "versao": "1.7.2",
+  "build": "20260901",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Faxina interna, sem efeito no uso do sistema. O instalador carregava, sem\nnenhum uso prático, um contato de telefone e um caminho de pasta do\ndesenvolvedor — não é dado de cliente nem credencial, só sobra de código que\nnão tinha por que estar no produto distribuído.\n\nEsse trecho saiu para um módulo separado que o instalador Windows já não\ninclui, mesma técnica usada há tempos para o gerador de licenças."
+  "notas": "Novidades:\n- Cupom de desconto na compra de licença (código, % de desconto e validade).\n- Beer Mash agora pode ser instalado como app (atalho na tela inicial / PWA).\n- \"Gerenciar licença\" agora abre o gerenciamento de verdade, não só um link.\n\nMelhorias:\n- Avisos do dashboard (estoque mínimo, faturas, disponibilidade de produção)\n  agora levam direto pra tela certa ao clicar, em vez de só informar.\n- Painel de entregas: o card não marca como entregue com um clique só, e\n  prioriza pedidos sem lote pela proximidade da data de entrega.\n\nCorreções:\n- Valor de boleto/NFS-e importado de PDF que às vezes vinha trocado por\n  outro número do próprio documento.\n- Pedido do PDV marcado como \"entregue\" continuava aparecendo na tela de\n  Entregas; agora a tela mostra só o que falta entregar (o recolhimento\n  do chopp continua tratado no painel principal).\n- Lançamento de pagamento ganhou campo pra escolher a data do recebimento."
 }
