@@ -1,6 +1,6 @@
 {
-  "versao": "1.7.4",
+  "versao": "1.7.5",
   "build": "20260902",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades:\n- Pedido de compras sugere itens já cadastrados no estoque e avisa quando\n  o item tem equivalência com outro insumo (mostrando o saldo de cada um).\n\nCorreções:\n- Manual: recuperação de senha do administrador estava dizendo pra\n  contatar o suporte, mas o sistema já resolve sozinho — corrigido pra\n  explicar o fluxo de \"Esqueci minha senha\" (vale pra admin também)."
+  "notas": "Correções:\n- Desligado o UPX no empacotamento do .exe — a compressão reduz o\n  tamanho, mas aumenta bastante a chance de falso positivo de antivírus\n  e do SmartScreen do Windows barrarem o instalador."
 }
