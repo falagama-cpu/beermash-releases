@@ -1,6 +1,6 @@
 {
-  "versao": "1.7.5",
+  "versao": "1.7.6",
   "build": "20260902",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Correções:\n- Desligado o UPX no empacotamento do .exe — a compressão reduz o\n  tamanho, mas aumenta bastante a chance de falso positivo de antivírus\n  e do SmartScreen do Windows barrarem o instalador."
+  "notas": "Correções:\n- E-mail agora é obrigatório e validado (formato) no registro de demo e\n  na geração de licença — corrige um caso real de chave gerada com\n  e-mail inválido, que nunca teria como receber a chave por e-mail."
 }
