@@ -1,6 +1,6 @@
 {
-  "versao": "1.8.0",
+  "versao": "1.8.1",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Atualizar o Beer Mash agora é mais simples: clique em \"Atualizar agora\" no\naviso de nova versão e o próprio app baixa e instala sozinho, sem precisar\npassar pelo navegador — e sem o aviso do Windows aparecendo de novo a cada\natualização.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Corrigido: o atalho de app que o Chrome oferece pra instalar o Beer Mash (o\nmesmo recurso do Android) ficava morto se o Beer Mash não estivesse aberto\n— agora ele inicia sozinho com o Windows, então o atalho sempre funciona.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
 }
