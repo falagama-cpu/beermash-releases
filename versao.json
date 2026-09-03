@@ -1,6 +1,6 @@
 {
-  "versao": "1.7.6",
-  "build": "20260902",
+  "versao": "1.7.7",
+  "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Correções:\n- E-mail agora é obrigatório e validado (formato) no registro de demo e\n  na geração de licença — corrige um caso real de chave gerada com\n  e-mail inválido, que nunca teria como receber a chave por e-mail."
+  "notas": "Novidades:\n- Botão \"Restaurar Backup\" em Configurações → Backup (só admin) — antes\n  só existia salvar, sem nenhum jeito de voltar um backup pro sistema.\n  Valida o arquivo, guarda uma cópia de segurança do banco atual antes\n  de trocar, e repõe logo/anexos junto com o banco."
 }
