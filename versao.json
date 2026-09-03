@@ -1,6 +1,6 @@
 {
-  "versao": "1.7.9",
+  "versao": "1.8.0",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Agenda de produção: dá para planejar a próxima brassagem (data, cerveja,\nvolume) antes mesmo de existir o lote — aparece na Agenda junto com entregas\ne faturas, e sugere qual tanque tem mais chance de estar livre na hora.\n\nTanques: o card de um tanque ocupado agora mostra quando ele deve ficar\ndisponível de novo.\n\nA Receber: abrir um pedido de PDV pelo botão \"↗\" leva direto pro pedido\ncerto, em vez de só abrir a tela geral do PDV.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Atualizar o Beer Mash agora é mais simples: clique em \"Atualizar agora\" no\naviso de nova versão e o próprio app baixa e instala sozinho, sem precisar\npassar pelo navegador — e sem o aviso do Windows aparecendo de novo a cada\natualização.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
 }
