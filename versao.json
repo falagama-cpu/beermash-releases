@@ -1,6 +1,6 @@
 {
-  "versao": "1.8.2",
+  "versao": "1.8.3",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Corrigido o erro \"Security validation failure\" que aparecia ao usar\n\"Atualizar agora\" (introduzido na v1.8.0) — a atualização automática volta\na funcionar de ponta a ponta.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Sem mudança visível pra quem já está em dia — essa versão existe só pra\nquem estiver atualizando a partir dela testar de novo o \"Atualizar agora\",\nagora com log detalhado de cada etapa.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
 }
