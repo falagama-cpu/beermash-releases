@@ -1,6 +1,6 @@
 {
-  "versao": "1.8.3",
+  "versao": "1.8.4",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Sem mudança visível pra quem já está em dia — essa versão existe só pra\nquem estiver atualizando a partir dela testar de novo o \"Atualizar agora\",\nagora com log detalhado de cada etapa.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Corrigido: anexos de boleto/NF enviados por um cliente não sumiam mais ao\nfechar e reabrir o programa (bug antigo, nunca tinha aparecido porque ainda\nnão tínhamos cliente usando isso de verdade).\n\nMudança de empacotamento: o instalador agora copia uma pasta em vez de um\núnico executável — deve resolver de vez o \"Security validation failure\" que\napareceu nas últimas versões ao usar \"Atualizar agora\".\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
 }
