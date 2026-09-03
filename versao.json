@@ -1,6 +1,6 @@
 {
-  "versao": "1.8.4",
+  "versao": "1.8.5",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Corrigido: anexos de boleto/NF enviados por um cliente não sumiam mais ao\nfechar e reabrir o programa (bug antigo, nunca tinha aparecido porque ainda\nnão tínhamos cliente usando isso de verdade).\n\nMudança de empacotamento: o instalador agora copia uma pasta em vez de um\núnico executável — deve resolver de vez o \"Security validation failure\" que\napareceu nas últimas versões ao usar \"Atualizar agora\".\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Corrigidos os dois últimos pontos da auditoria de encapsulamento: aviso\nclaro se outro programa estiver usando a porta 5050 (em vez de abrir o\nnavegador numa página qualquer), e pystray/Pillow agora listados no\nrequirements.txt.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
 }
