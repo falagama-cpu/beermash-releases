@@ -1,6 +1,6 @@
 {
-  "versao": "1.7.7",
+  "versao": "1.7.8",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Novidades:\n- Botão \"Restaurar Backup\" em Configurações → Backup (só admin) — antes\n  só existia salvar, sem nenhum jeito de voltar um backup pro sistema.\n  Valida o arquivo, guarda uma cópia de segurança do banco atual antes\n  de trocar, e repõe logo/anexos junto com o banco."
+  "notas": "Correções:\n- Botão \"Atualizar\" (topbar) agora recarrega a tela de Entregas também\n  — antes só atualizava o relógio, dando a impressão de que os filtros\n  de data não funcionavam."
 }
