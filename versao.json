@@ -1,6 +1,6 @@
 {
-  "versao": "1.8.1",
+  "versao": "1.8.2",
   "build": "20260903",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Corrigido: o atalho de app que o Chrome oferece pra instalar o Beer Mash (o\nmesmo recurso do Android) ficava morto se o Beer Mash não estivesse aberto\n— agora ele inicia sozinho com o Windows, então o atalho sempre funciona.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Corrigido o erro \"Security validation failure\" que aparecia ao usar\n\"Atualizar agora\" (introduzido na v1.8.0) — a atualização automática volta\na funcionar de ponta a ponta.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
 }
