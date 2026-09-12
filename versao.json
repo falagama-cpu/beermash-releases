@@ -1,6 +1,6 @@
 {
-  "versao": "1.8.7",
-  "build": "20260904",
+  "versao": "1.9.0",
+  "build": "20260912",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Ativar uma licença gerada pra outra máquina agora mostra o ID da máquina\ndireto na mensagem de erro (pra copiar e mandar pro suporte), e as duas\ntelas de ativação passaram a se comportar do mesmo jeito.\n\nClaude-Session: https://claude.ai/code/session_01JpiKmUYEprhtW3y55m5wxU"
+  "notas": "Estoque mínimo de produtos acabados\nConfigure um volume mínimo para cada cerveja pronta (botão \"⚙ Mínimos\" em\nProdutos Acabados). Quando o estoque cair nesse nível, uma produção sem\ndata aparece sozinha em \"Próximas Produções\" — você só escolhe quando\nvai produzir. Dá pra silenciar o aviso de uma cerveja específica sem\nperder a configuração.\n\nProdução planejada ligada à receita\nAo planejar uma produção, agora dá pra vincular a uma receita já\ncadastrada. Ao clicar em \"Iniciar\", os insumos da receita já vêm\ncarregados no lote, do mesmo jeito que \"Carregar no lote\" na aba\nReceitas.\n\nBonificação: fonte de saída correta\nO campo \"Sai de\" na bonificação agora mostra só a fonte (câmara ou\ntanque) que realmente tem saldo naquele lote, evitando bonificar de um\nlugar vazio.\n\nClaude-Session: https://claude.ai/code/session_01KsW4tYeqydTi9xdFpBRPPE"
 }
