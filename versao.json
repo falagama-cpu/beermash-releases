@@ -2,5 +2,5 @@
   "versao": "1.11.0",
   "build": "20260916",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Filtro rápido \"Semana\"\nChopp Delivery não tinha nenhum atalho de período, só os dois campos de\ndata pra preencher na mão. Entregas e Recolhimentos já tinham \"Hoje\" e\n\"Este mês\", mas não \"Semana\". Agora os três têm os mesmos três atalhos —\n\"Semana\" é sempre segunda a domingo da semana atual.\n\nRota também nas Entregas\nO botão 🗺️ Criar Rota, que só existia no Chopp Delivery, agora aparece\nna aba Entregas também. Ali a rota junta os pedidos com endereço do\nChopp Delivery E do PDV — antes só dava pra montar rota do chopp."
+  "notas": "Atualização v1.11.0"
 }
