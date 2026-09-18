@@ -1,6 +1,6 @@
 {
-  "versao": "1.11.0",
-  "build": "20260916",
+  "versao": "1.12.0",
+  "build": "20260918",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Atualização v1.11.0"
+  "notas": "Câmera pra marcar equipamento\nNa entrega e na retirada, marcar qual chopeira, cilindro de CO₂ ou barril\nestá saindo (ou voltando) com o cliente agora pode ser feito apontando a\ncâmera do celular pro código de barras da etiqueta do patrimônio, em vez de\nprocurar item por item numa lista. Continua dando pra marcar na mão, se\npreferir.\n\nRecolhimento cobra o equipamento de volta\nAté aqui, só a entrega perguntava o que estava saindo com o pedido. Agora o\nrecolhimento também: se ainda tem equipamento com o cliente, o sistema abre\na tela de devolver antes de marcar recolhido — e avisa se sobrar algo sem\ndevolver.\n\nEquipamento instalado no cliente PDV\nCliente de PDV que fica com chopeira, barril etc. por tempo indeterminado\nagora tem uma lista própria, direto no detalhe do cliente — sem precisar ir\nem Patrimônio toda vez que algo muda. Dá pra adicionar ou devolver\nequipamento ali mesmo.\n\nEntregas e Recolhimentos por canal\nAs abas Entregas e Recolhimentos agora têm um filtro Delivery/PDV, pra não\nmisturar os dois fluxos — cada um tem sua lógica própria de equipamento e\nprazo.\n\n--- o que muda de comportamento ---\n\nMarcar entregue ou recolhido com equipamento pendente agora exige confirmação\nSe o pedido tem equipamento disponível e ninguém marcou nada (nem pela\ncâmera, nem na mão), o sistema pergunta antes de deixar passar em branco —\nantes seguia direto.\n\n--- correções ---\n\n\"Onde andou\" não mostrava o pedido de origem no PDV\nO histórico de um equipamento mostrava \"—\" no lugar do número do pedido\nquando o empréstimo vinha de uma venda PDV — só funcionava pra chopp."
 }
