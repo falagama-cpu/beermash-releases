@@ -1,6 +1,6 @@
 {
-  "versao": "1.14.0",
-  "build": "20260925",
+  "versao": "1.14.1",
+  "build": "20260926",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Cobrar pendência de pagamento pelo WhatsApp\nEm Entregas e Chopp Delivery, pedido com saldo em aberto (A PAGAR ou\nPARCIAL) ganhou o botão \"Cobrar\" ao lado do \"Pagar\" — manda uma mensagem\npronta com o valor pendente, confirmando o número antes de enviar (igual ao\nfluxo que já existia pra reenviar confirmação).\n\nEntrega complementar\nCliente pediu mais um barril depois que a entrega já tinha sido marcada?\nAgora dá pra reabrir a entrega direto na aba Recolhimentos — o que já está\ncom o cliente continua marcado, só soma o equipamento novo, e o horário da\nentrega atualiza pra refletir o complemento.\n\nData do pedido em Pedidos de Compra\nA lista agora mostra a data em que cada item entrou — sem isso não dava pra\nsaber se um pedido pendente já tinha sido comprado de verdade e só\nesqueceram de marcar, ou se era recente.\n\nClaude-Session: https://claude.ai/code/session_015XrXuQaz1yoZXL6eoEb6j5"
+  "notas": "--- correções ---\n\nPedido com consignado descrito junto do chopp firme duplicava o barril\nQuando o texto do chopp já dizia algo como \"Pilsen 50L + 30L consignado\" e\no campo Consignado também estava preenchido, o sistema lia a informação\nduas vezes e criava dois pedidos-irmãos de consignado em vez de um — sobra\nfantasma de barril reservado.\n\nClaude-Session: https://claude.ai/code/session_015XrXuQaz1yoZXL6eoEb6j5"
 }
