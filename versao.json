@@ -1,6 +1,6 @@
 {
-  "versao": "1.14.1",
-  "build": "20260926",
+  "versao": "1.14.2",
+  "build": "20260928",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "--- correções ---\n\nPedido com consignado descrito junto do chopp firme duplicava o barril\nQuando o texto do chopp já dizia algo como \"Pilsen 50L + 30L consignado\" e\no campo Consignado também estava preenchido, o sistema lia a informação\nduas vezes e criava dois pedidos-irmãos de consignado em vez de um — sobra\nfantasma de barril reservado.\n\nClaude-Session: https://claude.ai/code/session_015XrXuQaz1yoZXL6eoEb6j5"
+  "notas": "--- correções ---\n\nTrocar o lote do consignado depois de aprovado não chegava na linha-irmã\nEditar \"Lote do consignado\" no pedido já confirmado salvava certinho no\npedido-pai, mas a linha-irmã que baixa o estoque de verdade continuava\nsem lote vinculado — igual ao bug do pagamento que não propagava\n(corrigido na 1.6.21), só que dessa vez no vínculo do lote. Agora a\nedição sincroniza a irmã automaticamente, sem duplicar e sem sobrescrever\num vínculo já feito à mão.\n\nClaude-Session: https://claude.ai/code/session_015XrXuQaz1yoZXL6eoEb6j5"
 }
