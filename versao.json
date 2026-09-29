@@ -1,6 +1,6 @@
 {
-  "versao": "1.14.2",
-  "build": "20260928",
+  "versao": "1.15.0",
+  "build": "20260929",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "--- correções ---\n\nTrocar o lote do consignado depois de aprovado não chegava na linha-irmã\nEditar \"Lote do consignado\" no pedido já confirmado salvava certinho no\npedido-pai, mas a linha-irmã que baixa o estoque de verdade continuava\nsem lote vinculado — igual ao bug do pagamento que não propagava\n(corrigido na 1.6.21), só que dessa vez no vínculo do lote. Agora a\nedição sincroniza a irmã automaticamente, sem duplicar e sem sobrescrever\num vínculo já feito à mão.\n\nClaude-Session: https://claude.ai/code/session_015XrXuQaz1yoZXL6eoEb6j5"
+  "notas": "--- novidades ---\n\nAgenda de produção: a linha do tempo virou um calendário do mês, com cada\nlote em andamento, os dias que faltam pra ficar pronto e uma cor por cerveja.\n\nBarril numerado ligado ao lote: na entrega (delivery e PDV) cada barril\nregistra qual lote levou. No detalhe do lote, \"Barris deste lote\" mostra pra\nquais clientes ele foi — útil num recall.\n\nFiltros e abas fixos no topo ao rolar as listas (Produção, Entregas, Chopp\nDelivery, PDV, Clientes, Relatórios e outras).\n\nVisual: fonte mais legível no tema escuro e uma cor para cada indicador.\n\n--- mudanças de comportamento ---\n\nLote pronto que já saiu para venda ou envase não pode mais ser editado.\nCorreção de volume é por ajuste; outra correção, só o administrador,\ninformando o motivo (fica registrado).\n\nO código de lote não pode mais se repetir — o sistema sugere o próximo\n(PIL0926, PIL09262…).\n\n--- correções ---\n\nEm Vendas PDV, clicar de novo no cliente recolhe os pedidos."
 }
