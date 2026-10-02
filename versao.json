@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.1",
-  "build": "20261001",
+  "versao": "1.15.2",
+  "build": "20261002",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Patrimônio Ativo agrupado por categoria: recolher/expandir cada grupo e\nmarcar a categoria inteira para imprimir etiquetas.\n\nManual atualizado, igual ao do site, com os recursos da 1.15.\n\n--- correções ---\n\nConsignado: o valor do barril consignado já faz parte do total do pedido; o\nacerto não lança o preço de novo na linha interna (somava a mais no\nfaturamento).\n\nConsignado não aberto: a devolução do dinheiro ao cliente agora aparece nos\npagamentos do pedido (lançamento negativo), e o recebido deixa de ficar\ninflado nos relatórios.\n\nPainel \"Exige ação hoje\": o alerta de pagamento antecipado não recebido não\naparece mais para a linha interna do consignado.\n\nCelular: as janelas cabem na tela, sem zoom do iPhone e sem rolar a página de\ntrás."
+  "notas": "Tanques: o card do fermentador com lote pronto agora mostra, além do volume\nno tanque, quanto está reservado para entregas futuras e quanto está livre\npara venda. Antes o card e a lista de lotes pareciam divergir (por exemplo\n950 L no card e 850 L na lista), porque a lista já desconta os pedidos de\ndatas futuras e o tanque só perde o chopp no dia da entrega. Quando todo o\nvolume já tem pedido, o card avisa \"todo reservado p/ pedidos\"."
 }
