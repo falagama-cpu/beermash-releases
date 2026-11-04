@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.7",
-  "build": "20261103",
+  "versao": "1.15.8",
+  "build": "20261104",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Produção: o custo por litro de um lote já concluído agora usa o volume real\nmedido ao final da fermentação, não mais o volume planejado no início — e\npode ser reajustado quantas vezes precisar em \"Editar lote completo\".\n\nLoja: o cliente recebe confirmação por WhatsApp quando o pedido é registrado\ne quando o pagamento é recebido, e o status da entrega (motoboy, previsão,\nlink de rastreio) passa a aparecer no próprio pedido.\n\nEntregas e Recolhimentos: o filtro de data não esconde mais um pedido\npendente ou recolhimento atrasado que ficou de fora do período selecionado."
+  "notas": "Segurança: cabeçalhos de proteção HTTP em todas as respostas do servidor,\nlimite de tentativas na recuperação de senha (igual ao do login), e a\nchecagem de licença/trial passou a valer também para as rotas internas\ndo sistema, não só para a tela principal."
 }
