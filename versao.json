@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.8",
-  "build": "20261104",
+  "versao": "1.15.9",
+  "build": "20261109",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Segurança: cabeçalhos de proteção HTTP em todas as respostas do servidor,\nlimite de tentativas na recuperação de senha (igual ao do login), e a\nchecagem de licença/trial passou a valer também para as rotas internas\ndo sistema, não só para a tela principal."
+  "notas": "Licenciamento: o sistema agora manda um sinal periódico de vida para o\nservidor de licenças (máquina, status demo/licenciado e versão) — sem\nnenhum dado da cervejaria. Ajuda a acompanhar a base instalada e corrigir\nautomaticamente o início do período de demonstração se necessário."
 }
