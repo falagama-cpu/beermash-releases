@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.9",
-  "build": "20261109",
+  "versao": "1.15.10",
+  "build": "20261110",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Licenciamento: o sistema agora manda um sinal periódico de vida para o\nservidor de licenças (máquina, status demo/licenciado e versão) — sem\nnenhum dado da cervejaria. Ajuda a acompanhar a base instalada e corrigir\nautomaticamente o início do período de demonstração se necessário."
+  "notas": "Entregas\n- A guia impressa agora traz os equipamentos vinculados ao pedido (lidos\n  pelo QR ou marcados na entrega): número de patrimônio, lote do barril e\n  entrega já marcada, nas duas vias.\n- Pedidos do PDV ganharam os botões de mapa e de impressão, com uma guia de\n  entrega própria em duas vias (produtos, valor, vencimento e equipamentos).\n- Na janela do Marcar Entregue há o botão Imprimir guia: grava o que foi\n  marcado e imprime antes de confirmar a entrega.\n- Usuário que só tem a seção Entregas agora consegue imprimir a guia (antes\n  aparecia 'Pedido não encontrado').\n\nCorreções\n- Instalação nova: Chopp Delivery, A receber, Bonificações e Agenda davam\n  erro na primeira vez que o sistema era aberto. Corrigido.\n- Título da tela Venda Local.\n\nManual\n- Revisado para bater com as telas atuais: nomes de botões, cliente do tipo\n  PDV, equivalência de insumos, preço de atacado e taplist na TV."
 }
