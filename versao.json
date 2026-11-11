@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.10",
-  "build": "20261110",
+  "versao": "1.15.11",
+  "build": "20261111",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Entregas\n- A guia impressa agora traz os equipamentos vinculados ao pedido (lidos\n  pelo QR ou marcados na entrega): número de patrimônio, lote do barril e\n  entrega já marcada, nas duas vias.\n- Pedidos do PDV ganharam os botões de mapa e de impressão, com uma guia de\n  entrega própria em duas vias (produtos, valor, vencimento e equipamentos).\n- Na janela do Marcar Entregue há o botão Imprimir guia: grava o que foi\n  marcado e imprime antes de confirmar a entrega.\n- Usuário que só tem a seção Entregas agora consegue imprimir a guia (antes\n  aparecia 'Pedido não encontrado').\n\nCorreções\n- Instalação nova: Chopp Delivery, A receber, Bonificações e Agenda davam\n  erro na primeira vez que o sistema era aberto. Corrigido.\n- Título da tela Venda Local.\n\nManual\n- Revisado para bater com as telas atuais: nomes de botões, cliente do tipo\n  PDV, equivalência de insumos, preço de atacado e taplist na TV."
+  "notas": "Entregas\n- Impressão em maquininha POS / impressora térmica (papel de 58 ou 80 mm):\n  a guia de entrega do PDV e o termo de aceite do delivery agora saem em\n  formato de cupom, em uma coluna e com letra legível, com as duas vias\n  uma abaixo da outra. Em folha A4 nada muda — o sistema escolhe o formato\n  pelo papel selecionado na impressão.\n- As guias mostram a situação do pagamento: PAGO, A PAGAR ou PARCIAL (com\n  o valor que falta), além da forma de pagamento.\n- Equipamentos do Patrimônio lidos pelo QR saem no cupom com o número de\n  patrimônio e a entrega já marcada."
 }
