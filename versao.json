@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.11",
+  "versao": "1.15.12",
   "build": "20261111",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Entregas\n- Impressão em maquininha POS / impressora térmica (papel de 58 ou 80 mm):\n  a guia de entrega do PDV e o termo de aceite do delivery agora saem em\n  formato de cupom, em uma coluna e com letra legível, com as duas vias\n  uma abaixo da outra. Em folha A4 nada muda — o sistema escolhe o formato\n  pelo papel selecionado na impressão.\n- As guias mostram a situação do pagamento: PAGO, A PAGAR ou PARCIAL (com\n  o valor que falta), além da forma de pagamento.\n- Equipamentos do Patrimônio lidos pelo QR saem no cupom com o número de\n  patrimônio e a entrega já marcada."
+  "notas": "Produção\n- Resumo de custo do lote: o frete que veio rateado na nota de compra\n  agora aparece no quadro Frete (antes ficava zerado, porque esse frete\n  já faz parte do preço do insumo). O Custo Insumos passa a ser mostrado\n  sem essa parcela. O total e o custo por litro não mudam.\n- O campo de frete do lote passou a se chamar Frete avulso: é só para\n  frete pago à parte, que não veio na nota.\n- Valores do resumo de custo e de cada insumo arredondados em 2 casas."
 }
