@@ -1,6 +1,6 @@
 {
-  "versao": "1.15.12",
-  "build": "20261111",
+  "versao": "1.15.13",
+  "build": "20261113",
   "url_exe": "https://github.com/falagama-cpu/beermash-releases/releases/latest/download/BeerMash-Setup.exe",
-  "notas": "Produção\n- Resumo de custo do lote: o frete que veio rateado na nota de compra\n  agora aparece no quadro Frete (antes ficava zerado, porque esse frete\n  já faz parte do preço do insumo). O Custo Insumos passa a ser mostrado\n  sem essa parcela. O total e o custo por litro não mudam.\n- O campo de frete do lote passou a se chamar Frete avulso: é só para\n  frete pago à parte, que não veio na nota.\n- Valores do resumo de custo e de cada insumo arredondados em 2 casas."
+  "notas": "Produção\n- O frete que veio rateado na nota de compra agora fica gravado com o\n  lote ao salvar. O detalhe do lote e a ficha impressa mostram esse\n  frete somado ao frete avulso, e o Custo Insumos sem essa parcela.\n  O total e o custo por litro não mudam.\n- Lotes salvos antes desta versão passam a mostrar o frete da nota\n  depois de abertos e salvos de novo."
 }
